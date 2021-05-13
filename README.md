@@ -6,9 +6,9 @@
 
 Siga a [documentação oficial do Docker](https://docs.docker.com/compose/install/) para instalar o Docker Compose utilizado para rodar o sistema.
 
-**Configurando o sistema (somente para produção ou troca de portas)**
+**Configurando o sistema**
 
-Renomeie o arquivo `.env.example` para `.env` e faça as configurações do sistema, alterando as portas e senhas conforme necessário em seu servidor.
+Renomeie o arquivo `.env.example` para `.env` e faça as configurações do sistema, alterando as portas e senhas conforme necessário em seu servidor (somente para produção ou troca de portas).
 
 **Inicializando os contêineres**
 
