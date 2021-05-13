@@ -1,0 +1,200 @@
+main.admin {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+main.admin > div {
+  min-width: 320px;
+  width: 30vw;
+  background-color: var(--background-color);
+  padding: 25px;
+  border-radius: 5px;
+  box-shadow: 0 0 60px rgb(0 0 0 / 10%);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-evenly;
+  height: auto;
+  max-height: 100vh;
+  overflow: auto;
+}
+
+main.admin > div > img {
+  width: 300px;
+}
+
+main.admin > div > h1 {
+  font-size: 22px;
+}
+
+main > div > form {
+  width: 100%;
+}
+
+main form > .form-group {
+  display: block;
+  margin-top: 30px;
+  width: 100%;
+  position: relative;
+}
+
+main form > .form-group > input {
+  width: 100%;
+  height: 40px;
+  border-radius: 5px;
+  padding-left: 20px;
+  font-size: 20px;
+  border: 1px solid #555;
+  background-color: #fff;
+}
+
+main form > .form-group > input + label {
+  font-size: 20px;
+  position: absolute;
+  left: 20px;
+  top: 10px;
+  color: #555;
+  transition: 0.5s;
+  pointer-events: none;
+}
+
+main form > .form-group > input:focus + label,
+main form > .form-group > input:valid + label {
+  font-size: 16px;
+  top: -20px;
+  left: 0px;
+}
+
+main form > button[type="submit"] {
+  height: 40px;
+  font-size: 20px;
+  color: var(--primary-color-contrast);
+  background-color: var(--primary-color);
+  border: 0;
+  border-radius: 5px;
+  margin-top: 20px;
+  width: 100%;
+  cursor: pointer;
+}
+
+main form input[type="file"] {
+  background: transparent;
+  border: 0;
+  font-size: 13px;
+  padding: 0;
+}
+
+main form input[type="file"] + label {
+  top: -20px;
+  font-size: 16px;
+  left: 0;
+}
+
+main form .form-group > img {
+  max-width: 150px;
+}
+
+main.controle {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  border-bottom: 1px solid var(--border-bottom-effect-color);
+  gap: 10px;
+  padding-bottom: 30px;
+}
+
+main.controle > aside {
+  width: 25%;
+  min-width: 150px;
+}
+
+main.controle > aside > ul {
+  padding: 0;
+  list-style: none;
+}
+
+main.controle > aside > ul > li > a {
+  text-decoration: none;
+  padding: 10px 15px;
+  display: block;
+  color: var(--text-color-step-750);
+}
+
+main.controle > aside > ul > li > a:hover {
+  background-color: var(--text-color-step-250);
+}
+
+main.controle > aside > ul > li > a.active {
+  background-color: var(--primary-color);
+  color: var(--primary-color-contrast);
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+main.controle > content {
+  width: 75%;
+}
+
+main.controle > content > table {
+  width: 100%;
+}
+main.controle > content > table > thead {
+  background-color: var(--primary-color);
+  color: var(--primary-color-contrast);
+  font-weight: bold;
+  text-align: center;
+}
+main.controle > content > table > tbody {
+  text-align: center;
+}
+
+main.controle > content > table > tbody > tr {
+  background: var(--text-color-step-100);
+}
+
+main.controle > content > table > tbody > tr:nth-child(2n) {
+  background: var(--text-color-step-150);
+}
+main.controle > content > table > tbody > tr > td > img {
+  height: 50px;
+}
+main.controle > content > table > tbody > tr > td > a.remove {
+  color: red;
+}
+
+main.controle > content > h1 {
+  padding: 10px 0;
+  font-size: 22px;
+  color: var(--text-color-step-750);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+main.controle > content > h1 > a {
+  text-decoration: none;
+  color: var(--success-color-contrast);
+  font-weight: 100;
+  font-size: 16px;
+  background-color: var(--success-color);
+  padding: 10px;
+  margin-left: 15px;
+  border-radius: 5px;
+}
+
+@media (max-width: 768px) {
+  main.controle {
+    flex-direction: column;
+  }
+
+  main.controle > aside, main.controle > content {
+    width: 100%;
+  }
+
+  main.controle > aside > ul > li > a.active {
+    border-radius: 5px;
+  }
+}

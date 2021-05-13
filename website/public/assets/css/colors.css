@@ -1,0 +1,37 @@
+:root {
+  --background-color: #ffffff;
+  --text-color-step-1000: #000000;
+  --text-color-step-950: #1e1e1e;
+  --text-color-step-900: #2a2a2a;
+  --text-color-step-850: #363636;
+  --text-color-step-800: #414141;
+  --text-color-step-750: #4d4d4d;
+  --text-color-step-700: #5f5d5a;
+  --text-color-step-650: #626161;
+  --text-color-step-600: #717171;
+  --text-color-step-550: #777575;
+  --text-color-step-500: #898989;
+  --text-color-step-450: #949494;
+  --text-color-step-400: #a0a0a0;
+  --text-color-step-350: #acacac;
+  --text-color-step-300: #b8b8b8;
+  --text-color-step-250: #c4c4c4;
+  --text-color-step-200: #d0d0d0;
+  --text-color-step-150: #dbdbdb;
+  --text-color-step-100: #e7e7e7;
+  --text-color-step-50: #f3f3f3;
+  --text-color-step-0: #ffffff;
+
+  --border-bottom-effect-color: #b3b3b3;
+  --border-top-effect-color: #f3f3f3;
+
+  --primary-color: #f65502;
+  --primary-color-contrast: #fff;
+  --primary-color-tint: #ff8749;
+  --primary-color-shade: #da4a00;
+
+  --success-color: #00b126;
+  --success-color-contrast: #fff;
+  --success-color-tint: #18d341;
+  --success-color-shade: #057e1f;
+}
