@@ -60,3 +60,9 @@ As informações de login padrões para o sistema interno são:
 Login: admin
 Senha: admin
 ```
+
+## Permissões (Linux)
+
+Em algumas distribuições, o servidor pode ter dificuldades para definir as permissões dos arquivos, para resolver, acesse a pasta do sistema através do terminal e execute:
+
+`sudo chmod 777 -R ./`
