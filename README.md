@@ -22,6 +22,8 @@ Caso prefira que o terminal utilizado para inicializar não fique preso ao siste
 docker-compose up --d
 ```
 
+*A primeira inicialização pode levar alguns segundos, pois o sistema está migrando a base de dados*
+
 **Instalando dependências**
 
 Execute o comando `docker-compose run php composer install` para instalar as dependências do sistema.
