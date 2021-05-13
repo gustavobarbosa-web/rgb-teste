@@ -28,7 +28,7 @@ docker-compose up --d
 
 Abra o terminal na pasta do sistema e execute o comando `docker-compose run php composer install` para instalar as dependências do mesmo.
 
-### Usando XAMP, WAMP, AMPPS e outros
+### Usando XAMPP, WAMP, AMPPS e outros
 
 **Instalando o composer**
 
